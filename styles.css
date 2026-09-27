@@ -25,7 +25,26 @@ body {
   background: peachpuff;
   border: 4px solid brown;
   height: 100px;
-  /* flex: 1; */
+  flex: 1; 
+}
+
+form {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.name {
+  flex-grow: 1;
+  flex-basis: 160px;
+}
+.email {
+  flex-grow: 3;
+  flex-basis: 200px;
+}
+button {
+  flex-grow: 1;
+  flex-basis: 80px;
 }
 
 .logo {
